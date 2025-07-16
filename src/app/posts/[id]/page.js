@@ -12,6 +12,9 @@ export default async function Home() {
           <h1>Post {post.id}</h1>
           <h2>{post.title}</h2>
           <p>{post.body}</p>
+          <h3>Post {post.id}</h3>
+          <h4>{post.title}</h4>
+          <p>{post.body}</p>
           <hr />
         </div>
       ))}
